@@ -76,6 +76,8 @@ if Choice=="COVID-19 Test":
     
 
 if Choice=="Order Center":
+    Name=st.text_input("Name:")
+    Email_address=st.text_input(" Email address:")
     st.subheader("Products Available:")
     col1,col2=st.columns(2)
     col1.write("#### Pippette")
